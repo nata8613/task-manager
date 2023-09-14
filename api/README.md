@@ -33,5 +33,5 @@ $ ./bin/console doctrine:migrations:migrate
 # Run application
 
 ```
-$ symfony server:start
+$ make start
 ```
