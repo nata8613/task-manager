@@ -10,7 +10,7 @@ Task Manager Mobile Application
 ## .env
 
 Create `.env` file inside root folder of this project (based on `.env.dist` file).
-Update database information and other settings if necessary.
+
 
 # Available Scripts
 
