@@ -3,7 +3,7 @@
 namespace App\Application\Service\User;
 
 use App\Application\Dto\User\UserDto;
-use App\Domain\Model\Entity\User;
+use App\Domain\Model\Entity\User\User;
 use App\Domain\Model\Repository\UserRepository;
 
 class ListUserService

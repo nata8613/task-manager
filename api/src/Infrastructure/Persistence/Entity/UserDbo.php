@@ -2,7 +2,7 @@
 
 namespace App\Infrastructure\Persistence\Entity;
 
-use App\Domain\Model\Entity\User;
+use App\Domain\Model\Entity\User\User;
 use App\Domain\Model\ValueObject\EmailAddress;
 use App\Infrastructure\Persistence\Repository\UserRepositoryImpl;
 use Doctrine\ORM\Mapping as ORM;

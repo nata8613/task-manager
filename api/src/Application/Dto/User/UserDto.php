@@ -2,7 +2,7 @@
 
 namespace App\Application\Dto\User;
 
-use App\Domain\Model\Entity\User;
+use App\Domain\Model\Entity\User\User;
 
 class UserDto
 {
