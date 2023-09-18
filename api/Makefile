@@ -9,9 +9,9 @@ recreate:
 
 clear:
 	@docker exec task-manager-php rm -rf var/cache
-	@docker exec task-manager-php bin/console doctrine:cache:clear-metadata
 	@docker exec task-manager-php composer dump-autoload --optimize --classmap-authoritative --ansi
 	@docker exec task-manager-php php bin/console cache:warmup
+	@docker exec task-manager-php bin/console doctrine:cache:clear-metadata
 
 migration:
 	@docker exec task-manager-php bin/console doctrine:cache:clear-metadata

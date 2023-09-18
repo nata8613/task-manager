@@ -12,6 +12,7 @@ services:
     depends_on:
       - task-manager-db
     volumes:
+      - .:/srv/api
       - .:/var/www/html
 
   # https://hub.docker.com/_/nginx/

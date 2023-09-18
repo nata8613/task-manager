@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Model\Entity;
+namespace App\Domain\Model\Entity\User;
 
 use App\Domain\Model\ValueObject\EmailAddress;
 use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
